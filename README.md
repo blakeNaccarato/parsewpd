@@ -1,6 +1,6 @@
 # parsewpd
 
-Parse Web Plot Digitizer projects to CSV.
+Parse [Web Plot Digitizer](https://apps.automeris.io/wpd/) projects to CSV.
 
 This script aggregates data scraped from papers with Web Plot Digitizer. This folder has
 subfolders associated with papers, which have a "paper.toml" describing the year of
