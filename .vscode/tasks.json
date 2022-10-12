@@ -1,0 +1,18 @@
+// Calling `pwsh` first leverages my personal $PROFILE to activate `.venv`.
+// Alternatively, we could use `.venv/Scripts/python.exe` and change the `args`, but
+// this is platform-specific anyways.
+
+{
+  "version": "2.0.0",
+  "tasks": [
+    // * -------------------------------------------------------------------------- * //
+    // * PROJECT-SPECIFIC * //
+    {
+      "label": "Get data",
+      "type": "process",
+      "command": "pwsh",
+      "args": ["-Command", "python get_data.py"],
+      "problemMatcher": []
+    }
+  ]
+}
